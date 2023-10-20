@@ -1,0 +1,110 @@
+body{
+background: linear-gradient(to right,#e66465, #9198e5);
+
+}
+.ul-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+.ul-header li{
+    display: inline;
+    margin-right: 1vw;
+    padding: 2px;
+    transition: all 0.5s;
+}
+.ul-header li:hover{
+    border-bottom: 2px solid #000000;
+}
+.items1{
+    display: none;
+    z-index: 20000000000;
+    color: aliceblue;
+    position: absolute;
+    margin-top: 0.5vh;
+    width: 100%;
+    overflow: auto;}
+
+.ul-header li:hover span {
+ display: block;
+ z-index: 20000000000;
+
+}
+.module-border-wrap {
+    width: 80%;
+    position: absolute;
+    background: linear-gradient(to right, red, purple, blue, yellow);
+    padding: 3px;
+    height: 80vh;
+
+  }
+
+
+  
+  .module {
+    background: #222;
+    color: white;
+    padding: 2rem;
+    height: 72vh;
+  }
+  .tablo{
+justify-content: center;
+display: flex;
+z-index: 1;
+  }
+  .news{
+    width:40%;
+    height: 50%;
+    background-color: #e66465;
+    overflow: auto;
+    float: right;
+    margin-left: 1vw;
+    border: 1px solid white;
+  }
+  .news li{
+    display: none;
+  }
+  .news:hover li{
+    display: block;
+    margin-top: 1.8px;
+  }
+  h1{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .news:hover p{
+    display: none;
+  }
+  .news p{
+    margin-top: 15%;
+    text-align: center;
+  }
+  h2{
+    top: 0;
+    padding: 0;
+    margin: 0;
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
